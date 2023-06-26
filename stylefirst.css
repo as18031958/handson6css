@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color: yellow;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    gap: 20px 50px; 
+    
+    
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 4, 77);
+    display: inline-block;
+    /* row-gap: 30px; */
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(108, 108, 168);
+    display: inline-block;
+    gap: 30px;
+
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(45, 19, 105);
+    display: inline-block;
+    gap: 30px;
+
+}
+
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+    gap: 30px;
+    
+
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(119, 44, 10);
+    display: inline-block;
+    gap: 30px;
+
+}
+.box6{
+height: 100px;
+width: 100px;
+background-color: rgb(73, 190, 37);
+display: inline-block;
+    gap: 30px;
+}
+/* for first page transition */
+.container1{
+    display: flex;
+    justify-content: center; 
+    /* text-align: center;  */
+    /* gap: 20px 50px;  */
+    margin-top: 50px;
+
+}
+
+.Box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+}
+
+.Box1:hover {
+    width: 300px;
+
+}
+.Box2:hover {
+    width: 300px;
+    height: 300px;
+
+}
+.Box3:hover{
+    width: 300px;
+        transition: 3s ease;
+}
+.Box4:hover{
+    width: 300px;
+        transition: 3s linear;
+}
+.Box5:hover{
+    width: 300px;
+        transition: 3s ease-in;
+}
+.Box6:hover{
+    width: 300px;
+        transition: 3s ease-out;
+}
+.Box7:hover{
+    width: 300px;
+        transition: 3s ease-in-out;
+}
+/* for car Annimation */
+

@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    background-color: yellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 30px;
+}
+.box{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.Box1{
+   height: 100px;
+    width: 100px;
+    background-color: darkslategrey;
+    animation: skew 2s infinite;
+    animation-direction: alternate;
+    transform: skew(45deg);
+}
+.Box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(170, 146, 146);
+    animation: skew1 1s infinite;
+    animation-direction: alternate;
+    transform: skew(20deg);
+}
+.Box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(8, 148, 148);
+    animation: rotate 3s infinite;
+    animation-direction: alternate;
+    transform: rotate(180deg);
+}
+.Box4{
+   
+    height: 100px;
+    width: 100px;
+    background-color: darkslategrey;
+    animation: rotate1 2s infinite;
+    animation-direction: alternate;
+    transform: rotateX(40deg);
+}
+.Box5{
+    
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 67, 17);
+    animation: rotate2 2s infinite;
+    animation-direction: alternate;
+    transform: rotate(45deg);
+}
+.Box6{
+   
+    height: 100px;
+    width: 100px;
+    background-color: rgb(18, 119, 26);
+    animation: rotate3 2s infinite;
+    animation-direction: alternate;
+    transform: rotate(180deg);
+}
+@keyframes skew {
+    0%{
+      transform: skewX(45deg)
+    }
+    100%{
+        transform: skewX(-45deg)
+    }
+}
+@keyframes skew1 {
+    0%{
+      transform: skewX(20deg)
+    }
+    100%{
+        transform: skewX(-20deg)
+    }
+}
+@keyframes rotate {
+    0%{
+      transform: rotate(180deg)
+    }
+    100%{
+        transform: rotate(-180deg)
+    }
+}
+@keyframes rotate1 {
+    0%{
+      transform: rotateX(0deg)
+    }
+    100%{
+        transform: rotateX(40deg)
+    }
+}
+@keyframes rotate2 {
+    0%{
+      transform: rotateY(0deg)
+    }
+    100%{
+        transform: rotateY(45deg)
+    }
+}
+@keyframes rotate3 {
+    0%{
+      transform: rotateZ(180deg)
+    }
+    100%{
+        transform: rotateZ(-180deg)
+    }
+}
